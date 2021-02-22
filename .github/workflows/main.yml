@@ -1,10 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. 
-on:
-  name: workflow name
+name: workflow name
 
 on:
   push:
@@ -55,7 +49,7 @@ jobs:
     - uses: akhileshns/heroku-deploy@v3.10.9
       with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "tic-tac-toe-eero-app"
+          heroku_app_name: "angular-heroku-eero."
           heroku_email: "eero.oittinen@gmail.com"
-          remote_branch: master 
+          remote_branch: main 
           usedocker: true
