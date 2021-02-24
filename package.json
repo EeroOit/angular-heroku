@@ -5,7 +5,7 @@
     "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
-    "build:ci": "ng build --prod --sourceMap=false --base-href /devops/",
+    "build:ci": "ng build --prod --sourceMap=false --base-href /devops-angular-heroku/",
     "test:ci": "ng test --watch=false --code-coverage --source-map true --browsers=ChromeHeadlessCustom",
     "lint": "ng lint",
     "e2e": "ng e2e"
