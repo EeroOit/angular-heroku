@@ -8,8 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    RouterModule.forRoot(routes, { useHash: true })  
+    BrowserModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
