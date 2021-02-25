@@ -46,7 +46,6 @@ jobs:
       uses: actions/download-artifact@v1
       with:
         name: deploy_dist
-        path: dist
     - uses: akhileshns/heroku-deploy@v3.10.9
       with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
